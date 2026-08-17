@@ -1,0 +1,20 @@
+{
+  "name": "decentralized-medical-records",
+  "version": "1.0.0",
+  "description": "Patient-controlled medical record access on-chain, with role-based permissions for patients, hospitals, and insurers",
+  "scripts": {
+    "test": "hardhat test",
+    "gas": "REPORT_GAS=true hardhat test",
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": ["solidity", "access-control", "healthcare", "blockchain"],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
